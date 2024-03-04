@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="w-auto h-auto bg-slate-300 mx-4 my-4 flex justify-center">{children}</body>
+      
     </html>
   );
 }
