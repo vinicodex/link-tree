@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="h-screen ustify-center bg-[url('/svg/cornered-stairs.svg')] bg-cover bg-no-repeat opacity-75">{children}</body>
+      <body className="h-screen justify-center bg-[url('/svg/cornered-stairs.svg')] bg-cover bg-no-repeat opacity-75 overflow-hidden">{children}</body>
     </html>
   );
 }
